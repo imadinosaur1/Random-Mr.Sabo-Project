@@ -4,23 +4,27 @@
 
 html,
 body {
-  margin: 0;
-  min-height: 100%;
-  background: #171916;
-  color: #e8dfc5;
-}
-
-body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  font-family: Georgia, "Times New Roman", serif;
+  overflow: hidden;
 }
 
 main {
-  width: min(100vw, 960px);
-  padding: 22px;
-  text-align: center;
+  width: min(100vw, calc((100vh - 150px) * 16 / 9));
+  padding: 12px;
+}
+
+.frame {
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  image-rendering: pixelated;
 }
 
 h1 {
