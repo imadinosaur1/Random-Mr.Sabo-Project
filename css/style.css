@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  width: min(100vw, calc((50vh - 150px) * 16 / 9));
+  width: min(100vw, calc((150vh - 150px) * 16 / 9));
   padding: 12px;
 }
 
