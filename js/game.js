@@ -13,7 +13,7 @@
     y: 218,
     speed: 78,
     facing: "down",
-    moving: true
+    moving: false
   };
 
   const camera = {
