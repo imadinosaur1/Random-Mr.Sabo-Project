@@ -9,7 +9,7 @@
   const world = { width: 640, height: 420 };
 
   const player = {
-    x: 280,
+    x: 320,
     y: 218,
     speed: 78,
     facing: "down",
