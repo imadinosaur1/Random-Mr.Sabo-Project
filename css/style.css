@@ -36,3 +36,13 @@ canvas {
   object-fit: contain;
   image-rendering: pixelated;
 }
+.nameplate {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  padding: 6px 10px;
+  background: rgba(20, 22, 19, 0.85);
+  color: #fff2d2;
+  font: 16px "Courier New", monospace;
+}
