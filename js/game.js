@@ -143,12 +143,12 @@
     drawHester(time);
     ctx.restore();
 
-    // Nameplate.
+    /* Nameplate.
     ctx.fillStyle = "rgba(20, 22, 19, 0.72)";
     ctx.fillRect(7, 7, 66, 13);
     ctx.fillStyle = "#ddd1b2";
     ctx.font = "8px monospace";
-    ctx.fillText("Hester Prynne", 11, 16);
+    ctx.fillText("Hester Prynne", 11, 16);*/
   }
 
   let previousTime = performance.now();
