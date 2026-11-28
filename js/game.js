@@ -82,8 +82,8 @@
   }
 
   function drawHester(time) {
-    const x = Math.round(player.x - camera.x);
-    const y = Math.round(player.y - camera.y);
+    const x = Math.round(player.x);
+    const y = Math.round(player.y);
     const bob = player.moving ? (Math.sin(time * 0.018) | 0) : 0;
 
     // Shadow, auburn hair, face, dress, and scarlet letter.
